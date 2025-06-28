@@ -8,11 +8,12 @@ A simple REST API server built with Actix Web that returns JSON data.
 cargo run
 ```
 
-The server will start on `http://127.0.0.1:8080`
+The server will start on configured host:port, initially `http://127.0.0.1:8080`
 
 ## API Endpoints
 
 - `GET /` - Returns JSON: `{ "data": "hello world" }`
+- `GET /health` - Returns string: `"OK"`
 
 ## Dependencies
 
